@@ -1,6 +1,6 @@
 // Given the group debt records (array of array of borrower, lender, debt)
 // Who in the group has the smallest negative balance
-// ex: [[alex, blake, 2],[blake, alex, 2], [casey, alex, 5],[alex, blake, 4],[alex, casey, 4]]
+// ex: [[alex, blake, 2],[blake, alex, 2], ["blake", "casey", 7],[casey, alex, 5],[alex, blake, 4],[alex, casey, 4]]
 // returns ["alex", "blake"] because they both have balance of -3, which is minimum
 // amount all members
 
